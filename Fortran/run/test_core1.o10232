@@ -1,0 +1,176 @@
+mpirun -np 8 ./core.exe
+ [Main] The simulation starts!
+ [Main] Read input parameters!
+ [Main] Simulation setup completed!
+ [Main] Iteration starts!
+ 
+ [Main] tstep=           1
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.005198567
+[Timer] [Main] poisson FFT                  : (  2) :      0.039768144
+[Timer] [Main] ghostcell update             : (  3) :      0.000328934
+[Timer] [fft] TDMA                          : (  4) :      0.005432318
+[Timer] [fft] FFT                           : (  5) :      0.007855206
+[Timer] [fft] ALLTOALL                      : (  6) :      0.016034908
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.002144324
+[Timer] [fft] others                        : (  8) :      0.003021791
+[Timer] [fft] build TDMA                    : (  9) :      0.005240908
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003543749
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000581281
+[Timer] [RHS] allocate                      : ( 12) :      0.000019613
+[Timer] [RHS] calc                          : ( 13) :      0.005178015
+ 
+ 
+ [Main] tstep=           2
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004568783
+[Timer] [Main] poisson FFT                  : (  2) :      0.029905425
+[Timer] [Main] ghostcell update             : (  3) :      0.000332323
+[Timer] [fft] TDMA                          : (  4) :      0.004189540
+[Timer] [fft] FFT                           : (  5) :      0.004738664
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011228181
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.001975363
+[Timer] [fft] others                        : (  8) :      0.003270016
+[Timer] [fft] build TDMA                    : (  9) :      0.004476225
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003649542
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000387629
+[Timer] [RHS] allocate                      : ( 12) :      0.000015259
+[Timer] [RHS] calc                          : ( 13) :      0.004552654
+ 
+ 
+ [Main] tstep=           3
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004566118
+[Timer] [Main] poisson FFT                  : (  2) :      0.030071387
+[Timer] [Main] ghostcell update             : (  3) :      0.000305956
+[Timer] [fft] TDMA                          : (  4) :      0.004079555
+[Timer] [fft] FFT                           : (  5) :      0.004758026
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011495243
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.002012047
+[Timer] [fft] others                        : (  8) :      0.003210580
+[Timer] [fft] build TDMA                    : (  9) :      0.004491831
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003613310
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000380576
+[Timer] [RHS] allocate                      : ( 12) :      0.000010338
+[Timer] [RHS] calc                          : ( 13) :      0.004555381
+ 
+ 
+ [Main] tstep=           4
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004566850
+[Timer] [Main] poisson FFT                  : (  2) :      0.029678027
+[Timer] [Main] ghostcell update             : (  3) :      0.000307887
+[Timer] [fft] TDMA                          : (  4) :      0.004062248
+[Timer] [fft] FFT                           : (  5) :      0.004755506
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011213698
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.001971666
+[Timer] [fft] others                        : (  8) :      0.003134012
+[Timer] [fft] build TDMA                    : (  9) :      0.004517232
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003496022
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000434219
+[Timer] [RHS] allocate                      : ( 12) :      0.000009154
+[Timer] [RHS] calc                          : ( 13) :      0.004557159
+ 
+ 
+ [Main] tstep=           5
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004568922
+[Timer] [Main] poisson FFT                  : (  2) :      0.030268729
+[Timer] [Main] ghostcell update             : (  3) :      0.000316986
+[Timer] [fft] TDMA                          : (  4) :      0.004181358
+[Timer] [fft] FFT                           : (  5) :      0.004782814
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011513525
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.002031070
+[Timer] [fft] others                        : (  8) :      0.003277228
+[Timer] [fft] build TDMA                    : (  9) :      0.004458389
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003611116
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000427205
+[Timer] [RHS] allocate                      : ( 12) :      0.000009323
+[Timer] [RHS] calc                          : ( 13) :      0.004558989
+ 
+ 
+ [Main] tstep=           6
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004579921
+[Timer] [Main] poisson FFT                  : (  2) :      0.029505820
+[Timer] [Main] ghostcell update             : (  3) :      0.000312478
+[Timer] [fft] TDMA                          : (  4) :      0.003934513
+[Timer] [fft] FFT                           : (  5) :      0.004824823
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011195563
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.001963805
+[Timer] [fft] others                        : (  8) :      0.003004957
+[Timer] [fft] build TDMA                    : (  9) :      0.004556707
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003391390
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000439087
+[Timer] [RHS] allocate                      : ( 12) :      0.000010337
+[Timer] [RHS] calc                          : ( 13) :      0.004568892
+ 
+ 
+ [Main] tstep=           7
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004570569
+[Timer] [Main] poisson FFT                  : (  2) :      0.029859526
+[Timer] [Main] ghostcell update             : (  3) :      0.000320802
+[Timer] [fft] TDMA                          : (  4) :      0.004019427
+[Timer] [fft] FFT                           : (  5) :      0.004716422
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011524606
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.002000500
+[Timer] [fft] others                        : (  8) :      0.003066702
+[Timer] [fft] build TDMA                    : (  9) :      0.004505288
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003494394
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000439592
+[Timer] [RHS] allocate                      : ( 12) :      0.000010560
+[Timer] [RHS] calc                          : ( 13) :      0.004559321
+ 
+ 
+ [Main] tstep=           8
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004561599
+[Timer] [Main] poisson FFT                  : (  2) :      0.029198635
+[Timer] [Main] ghostcell update             : (  3) :      0.000321922
+[Timer] [fft] TDMA                          : (  4) :      0.003921793
+[Timer] [fft] FFT                           : (  5) :      0.004728375
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011067555
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.001966850
+[Timer] [fft] others                        : (  8) :      0.002960580
+[Timer] [fft] build TDMA                    : (  9) :      0.004527441
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003406005
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000416272
+[Timer] [RHS] allocate                      : ( 12) :      0.000009693
+[Timer] [RHS] calc                          : ( 13) :      0.004551330
+ 
+ 
+ [Main] tstep=           9
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004565289
+[Timer] [Main] poisson FFT                  : (  2) :      0.030241467
+[Timer] [Main] ghostcell update             : (  3) :      0.000315439
+[Timer] [fft] TDMA                          : (  4) :      0.004118442
+[Timer] [fft] FFT                           : (  5) :      0.004637879
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011460616
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.002205851
+[Timer] [fft] others                        : (  8) :      0.003323740
+[Timer] [fft] build TDMA                    : (  9) :      0.004469439
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003606380
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000406270
+[Timer] [RHS] allocate                      : ( 12) :      0.000009048
+[Timer] [RHS] calc                          : ( 13) :      0.004555664
+ 
+ 
+ [Main] tstep=          10
+ [Main] Timer initialized!
+[Timer] [Main] poisson RHS                  : (  1) :      0.004576151
+[Timer] [Main] poisson FFT                  : (  2) :      0.029694936
+[Timer] [Main] ghostcell update             : (  3) :      0.000311134
+[Timer] [fft] TDMA                          : (  4) :      0.004021018
+[Timer] [fft] FFT                           : (  5) :      0.004733744
+[Timer] [fft] ALLTOALL                      : (  6) :      0.011245369
+[Timer] [fft] UPDATE SOLUTION               : (  7) :      0.002058533
+[Timer] [fft] others                        : (  8) :      0.003077094
+[Timer] [fft] build TDMA                    : (  9) :      0.004532924
+[Timer] [tdma] calc TDMA                    : ( 10) :      0.003454959
+[Timer] [tdma] comm TDMA                    : ( 11) :      0.000461959
+[Timer] [RHS] allocate                      : ( 12) :      0.000009956
+[Timer] [RHS] calc                          : ( 13) :      0.004565519
+ 
+ [Main] The main simulation complete! 
