@@ -1,0 +1,44 @@
+&sim_continue
+ContinueFilein      = 0
+ContinueFileout     = 1
+dir_cont_filein     = './data/1_continue/MPI_IO/'
+dir_cont_fileout    = './data/1_continue/'
+dir_instantfield    = './data/2_instanfield/'
+/
+
+&meshes
+n1m = 512
+n2m = 512
+n3m = 512
+/
+
+&MPI_procs
+np1 = 4
+np2 = 4
+np3 = 4
+/
+
+&periodic_boundary
+pbc1 = .true.
+pbc2 = .false.
+pbc3 = .true.
+/
+
+&uniform_mesh
+uniform1 = 1
+uniform2 = 1
+uniform3 = 1
+/
+
+&mesh_stretch
+gamma1 = 1.0
+gamma2 = 1.0d0
+gamma3 = 1.0
+/
+
+&aspect_ratio
+H       = 1
+Aspect1 = 1
+Aspect2 = 1
+Aspect3 = 1
+/
