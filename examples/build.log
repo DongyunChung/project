@@ -1,0 +1,436 @@
+__sti___24_module_mpi_subdomain_cpp_3585f744:
+     39, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     40, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     41, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     42, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     43, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     45, std::vector<int, std::allocator<int>>::vector() inlined, size=55 (inline)
+     67, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector() inlined, size=55 (inline)
+     68, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector() inlined, size=55 (inline)
+     69, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector() inlined, size=55 (inline)
+     70, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector() inlined, size=55 (inline)
+     73, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     74, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+     76, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+ptdma_plan_many::ptdma_plan_many():
+      0, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector() inlined, size=55 (inline)
+      0, std::vector<int, std::allocator<int>>::vector() inlined, size=55 (inline)
+      0, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+ptdma_plan_many::~ptdma_plan_many():
+      0, std::vector<double, std::allocator<double>>::~vector() inlined, size=152 (inline) file module_mpi_subdomain.cpp (676)
+      0, std::vector<int, std::allocator<int>>::~vector() inlined, size=152 (inline) file module_mpi_subdomain.cpp (676)
+      0, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~vector() inlined, size=152 (inline) file module_mpi_subdomain.cpp (676)
+double* std::__uninitialized_fill_n<true>::__uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&):
+    240, double* std::fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+         808, Generated vector simd code for the loop
+int* std::__uninitialized_fill_n<true>::__uninit_fill_n<int*, unsigned long, int>(int*, unsigned long, int const&):
+    240, int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+         808, Generated vector simd code for the loop
+double* std::__uninitialized_default_n_1<true>::__uninit_default_n<double*, unsigned long>(double*, unsigned long):
+    566, double* std::fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+         808, Generated vector simd code for the loop
+ompi_datatype_t** std::__uninitialized_default_n_1<true>::__uninit_default_n<ompi_datatype_t**, unsigned long>(ompi_datatype_t**, unsigned long):
+    566, ompi_datatype_t** std::fill_n<ompi_datatype_t**, unsigned long, ompi_datatype_t*>(ompi_datatype_t**, unsigned long, ompi_datatype_t* const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+         808, ompi_datatype_t** std::__niter_base<ompi_datatype_t**>(ompi_datatype_t**) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+         808, Loop not vectorized: may not be beneficial for target
+              Loop not vectorized: unknown
+              Loop unrolled 4 times
+int* std::__uninitialized_default_n_1<true>::__uninit_default_n<int*, unsigned long>(int*, unsigned long):
+    566, int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+         808, Generated vector simd code for the loop
+std::allocator<double>::~allocator():
+      0, std::allocator<double>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::allocator_traits<std::allocator<double>>::allocate(std::allocator<double>&, unsigned long):
+    443, __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+         104, __gnu_cxx::new_allocator<double>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::allocator_traits<std::allocator<double>>::deallocate(std::allocator<double>&, double*, unsigned long):
+    469, __gnu_cxx::new_allocator<double>::deallocate(double*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+std::allocator_traits<std::allocator<double>>::max_size(std::allocator<double> const&):
+    505, __gnu_cxx::new_allocator<double>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<double, std::allocator<double>>::_Vector_base():
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+std::_Vector_base<double, std::allocator<double>>::_Vector_base():
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_base() inlined, size=15 (inline)
+           0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+              131, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+                     0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<double, std::allocator<double>>::_Vector_base(unsigned long, std::allocator<double> const&):
+    302, std::_Vector_base<double, std::allocator<double>>::_M_create_storage(unsigned long) inlined, size=53 (inline) file module_mpi_subdomain.cpp (357)
+         358, std::_Vector_base<double, std::allocator<double>>::_M_allocate(unsigned long) inlined, size=28 (inline) file module_mpi_subdomain.cpp (341)
+              343, std::allocator_traits<std::allocator<double>>::allocate(std::allocator<double>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+                   443, __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+                        104, __gnu_cxx::new_allocator<double>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+    302, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl(std::allocator<double> const&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (135)
+    302, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::_Vector_base<double, std::allocator<double>>::~_Vector_base():
+    332, std::_Vector_base<double, std::allocator<double>>::_M_deallocate(double*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+    334, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::_Vector_base<double, std::allocator<double>>::~_Vector_base():
+      0, std::_Vector_base<double, std::allocator<double>>::~_Vector_base() inlined, size=40 (inline) file module_mpi_subdomain.cpp (331)
+         332, std::_Vector_base<double, std::allocator<double>>::_M_deallocate(double*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+              351, std::allocator_traits<std::allocator<double>>::deallocate(std::allocator<double>&, double*, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+                   469, __gnu_cxx::new_allocator<double>::deallocate(double*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+         334, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline) file module_mpi_subdomain.cpp (0)
+                0, std::allocator<double>::~allocator() inlined, size=3 (inline)
+                     0, std::allocator<double>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::_Vector_base<double, std::allocator<double>>::_M_allocate(unsigned long):
+    343, std::allocator_traits<std::allocator<double>>::allocate(std::allocator<double>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+         443, __gnu_cxx::new_allocator<double>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+              104, __gnu_cxx::new_allocator<double>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<double, std::allocator<double>>::_M_deallocate(double*, unsigned long):
+    351, std::allocator_traits<std::allocator<double>>::deallocate(std::allocator<double>&, double*, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+         469, __gnu_cxx::new_allocator<double>::deallocate(double*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+std::_Vector_base<double, std::allocator<double>>::_M_create_storage(unsigned long):
+    358, std::_Vector_base<double, std::allocator<double>>::_M_allocate(unsigned long) inlined, size=28 (inline) file module_mpi_subdomain.cpp (341)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data():
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_M_swap_data(std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data&):
+    118, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+    119, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_M_copy_data(std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (107)
+    120, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_M_copy_data(std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (107)
+    121, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_M_copy_data(std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (107)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl():
+    131, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl():
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl(std::allocator<double> const&):
+    135, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl(std::allocator<double> const&):
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl(std::allocator<double> const&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (135)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl():
+      0, std::allocator<double>::~allocator() inlined, size=3 (inline)
+           0, std::allocator<double>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl():
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::vector<double, std::allocator<double>>::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>):
+    453, double* std::__relocate_a<double*, double*, std::allocator<double>>(double*, double*, double*, std::allocator<double>&) inlined, size=22 (inline) file module_mpi_subdomain.cpp (963)
+         964, double* std::__niter_base<double*>(double*) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+std::vector<double, std::allocator<double>>::_S_relocate(double*, double*, double*, std::allocator<double>&):
+    466, std::vector<double, std::allocator<double>>::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) inlined, size=39 (inline) file module_mpi_subdomain.cpp (452)
+         453, double* std::__relocate_a<double*, double*, std::allocator<double>>(double*, double*, double*, std::allocator<double>&) inlined, size=22 (inline) file module_mpi_subdomain.cpp (963)
+              964, double* std::__niter_base<double*>(double*) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+std::vector<double, std::allocator<double>>::vector():
+      0, std::_Vector_base<double, std::allocator<double>>::_Vector_base() inlined, size=29 (inline)
+           0, std::_Vector_base<double, std::allocator<double>>::_Vector_base() inlined, size=15 (inline)
+                0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+                   131, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+                          0, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::vector<double, std::allocator<double>>::vector():
+      0, std::vector<double, std::allocator<double>>::vector() inlined, size=55 (inline)
+std::vector<double, std::allocator<double>>::vector(unsigned long, double const&, std::allocator<double> const&):
+    522, std::_Vector_base<double, std::allocator<double>>::_Vector_base(unsigned long, std::allocator<double> const&) inlined, size=3 (inline)
+    522, std::vector<double, std::allocator<double>>::_M_fill_initialize(unsigned long, double const&) inlined, size=198 (inline) file module_mpi_subdomain.cpp (1591)
+        1592, double* std::__uninitialized_fill_n_a<double*, unsigned long, double, double>(double*, unsigned long, double const&, std::allocator<double>&) inlined, size=102 (inline) file module_mpi_subdomain.cpp (384)
+              384, double* std::uninitialized_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) inlined, size=55 (inline) file module_mpi_subdomain.cpp (257)
+                   272, double* std::__uninitialized_fill_n<true>::__uninit_fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) inlined, size=31 (inline) file module_mpi_subdomain.cpp (240)
+                        240, double* std::fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+                             808, double* std::__niter_base<double*>(double*) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+        1592, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+        1592, Generated vector simd code for the loop
+    522, std::vector<double, std::allocator<double>>::_S_check_init_len(unsigned long, std::allocator<double> const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (1765)
+std::vector<double, std::allocator<double>>::vector(unsigned long, double const&, std::allocator<double> const&):
+      0, std::vector<double, std::allocator<double>>::vector(unsigned long, double const&, std::allocator<double> const&) inlined, size=389 (inline) file module_mpi_subdomain.cpp (522)
+         522, Generated vector simd code for the loop
+std::vector<double, std::allocator<double>>::~vector():
+    677, void std::_Destroy<double*, double>(double*, double*, std::allocator<double>&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (205)
+    677, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    680, std::_Vector_base<double, std::allocator<double>>::~_Vector_base() inlined, size=70 (inline)
+           0, std::_Vector_base<double, std::allocator<double>>::~_Vector_base() inlined, size=40 (inline) file module_mpi_subdomain.cpp (331)
+              332, std::_Vector_base<double, std::allocator<double>>::_M_deallocate(double*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+                   351, std::allocator_traits<std::allocator<double>>::deallocate(std::allocator<double>&, double*, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+                        469, __gnu_cxx::new_allocator<double>::deallocate(double*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+              334, std::_Vector_base<double, std::allocator<double>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline) file module_mpi_subdomain.cpp (0)
+                     0, std::allocator<double>::~allocator() inlined, size=3 (inline)
+                          0, std::allocator<double>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::vector<double, std::allocator<double>>::~vector():
+      0, std::vector<double, std::allocator<double>>::~vector() inlined, size=152 (inline) file module_mpi_subdomain.cpp (676)
+std::vector<double, std::allocator<double>>::begin():
+    809, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>::__normal_iterator(double* const&) inlined, size=2 (inline) file module_mpi_subdomain.cpp (804)
+std::vector<double, std::allocator<double>>::end():
+    827, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>::__normal_iterator(double* const&) inlined, size=2 (inline) file module_mpi_subdomain.cpp (804)
+std::vector<double, std::allocator<double>>::max_size() const:
+    921, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() const inlined, size=2 (inline) file module_mpi_subdomain.cpp (278)
+std::vector<double, std::allocator<double>>::resize(unsigned long):
+    936, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    937, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    938, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    939, std::vector<double, std::allocator<double>>::_M_erase_at_end(double*) inlined, size=26 (inline) file module_mpi_subdomain.cpp (1790)
+std::vector<double, std::allocator<double>>::data():
+   1166, double* std::vector<double, std::allocator<double>>::_M_data_ptr<double>(double*) const inlined, size=2 (inline) file module_mpi_subdomain.cpp (1841)
+std::vector<double, std::allocator<double>>::clear():
+   1496, std::vector<double, std::allocator<double>>::_M_erase_at_end(double*) inlined, size=26 (inline) file module_mpi_subdomain.cpp (1790)
+std::vector<double, std::allocator<double>>::_M_fill_initialize(unsigned long, double const&):
+   1592, double* std::__uninitialized_fill_n_a<double*, unsigned long, double, double>(double*, unsigned long, double const&, std::allocator<double>&) inlined, size=102 (inline) file module_mpi_subdomain.cpp (384)
+         384, Generated vector simd code for the loop
+   1592, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+std::vector<double, std::allocator<double>>::_M_fill_assign(unsigned long, double const&):
+    260, std::vector<double, std::allocator<double>>::capacity() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (996)
+    262, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    262, std::vector<double, std::allocator<double>>::vector(unsigned long, double const&, std::allocator<double> const&) inlined, size=389 (inline) file module_mpi_subdomain.cpp (522)
+         522, Loop not fused: function call before adjacent loop
+              Generated vector simd code for the loop
+    263, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_M_swap_data(std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data&) inlined, size=19 (inline) file module_mpi_subdomain.cpp (115)
+         118, std::_Vector_base<double, std::allocator<double>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+    264, std::vector<double, std::allocator<double>>::~vector() inlined, size=152 (inline) file module_mpi_subdomain.cpp (676)
+    265, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    267, std::vector<double, std::allocator<double>>::end() inlined, size=5 (inline) file module_mpi_subdomain.cpp (827)
+    267, std::vector<double, std::allocator<double>>::begin() inlined, size=5 (inline) file module_mpi_subdomain.cpp (809)
+    267, void std::fill<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, double const&) inlined, size=19 (inline) file module_mpi_subdomain.cpp (743)
+         749, Memory set idiom, loop replaced by call to __c_mset8
+    268, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    270, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    270, double* std::__uninitialized_fill_n_a<double*, unsigned long, double, double>(double*, unsigned long, double const&, std::allocator<double>&) inlined, size=102 (inline) file module_mpi_subdomain.cpp (384)
+         384, Loop not fused: no successor loop
+              Generated vector simd code for the loop
+    276, double* std::fill_n<double*, unsigned long, double>(double*, unsigned long, double const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+         808, Generated vector simd code for the loop
+    276, std::vector<double, std::allocator<double>>::_M_erase_at_end(double*) inlined, size=26 (inline) file module_mpi_subdomain.cpp (1790)
+std::vector<double, std::allocator<double>>::_M_default_append(unsigned long):
+    616, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    620, std::vector<double, std::allocator<double>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+    626, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    626, double* std::__uninitialized_default_n_a<double*, unsigned long, double>(double*, unsigned long, std::allocator<double>&) inlined, size=101 (inline) file module_mpi_subdomain.cpp (663)
+    633, std::vector<double, std::allocator<double>>::_M_check_len(unsigned long, char const*) const inlined, size=52 (inline) file module_mpi_subdomain.cpp (1754)
+        1755, std::vector<double, std::allocator<double>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+              921, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() const inlined, size=2 (inline) file module_mpi_subdomain.cpp (278)
+        1755, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    635, std::_Vector_base<double, std::allocator<double>>::_M_allocate(unsigned long) inlined, size=28 (inline) file module_mpi_subdomain.cpp (341)
+    640, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    640, double* std::__uninitialized_default_n_a<double*, unsigned long, double>(double*, unsigned long, std::allocator<double>&) inlined, size=101 (inline) file module_mpi_subdomain.cpp (663)
+    645, std::_Vector_base<double, std::allocator<double>>::_M_deallocate(double*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+    648, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    648, std::vector<double, std::allocator<double>>::_S_relocate(double*, double*, double*, std::allocator<double>&) inlined, size=70 (inline) file module_mpi_subdomain.cpp (464)
+         466, std::vector<double, std::allocator<double>>::_S_do_relocate(double*, double*, double*, std::allocator<double>&, std::integral_constant<bool, true>) inlined, size=39 (inline) file module_mpi_subdomain.cpp (452)
+              453, double* std::__relocate_a<double*, double*, std::allocator<double>>(double*, double*, double*, std::allocator<double>&) inlined, size=22 (inline) file module_mpi_subdomain.cpp (963)
+                   964, double* std::__niter_base<double*>(double*) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+    675, std::_Vector_base<double, std::allocator<double>>::_M_deallocate(double*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+std::vector<double, std::allocator<double>>::_M_check_len(unsigned long, char const*) const:
+   1755, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+   1755, std::vector<double, std::allocator<double>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+   1758, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+   1758, unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) inlined, size=3 (inline) file module_mpi_subdomain.cpp (223)
+   1759, std::vector<double, std::allocator<double>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+   1759, std::vector<double, std::allocator<double>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+std::vector<double, std::allocator<double>>::_S_max_size(std::allocator<double> const&):
+   1780, std::allocator_traits<std::allocator<double>>::max_size(std::allocator<double> const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (505)
+         505, __gnu_cxx::new_allocator<double>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+   1781, unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) inlined, size=3 (inline) file module_mpi_subdomain.cpp (199)
+std::vector<double, std::allocator<double>>::_M_erase_at_end(double*):
+   1793, void std::_Destroy<double*, double>(double*, double*, std::allocator<double>&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (205)
+   1793, std::_Vector_base<double, std::allocator<double>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+std::allocator<ompi_datatype_t*>::~allocator():
+      0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::allocator_traits<std::allocator<ompi_datatype_t*>>::allocate(std::allocator<ompi_datatype_t*>&, unsigned long):
+    443, __gnu_cxx::new_allocator<ompi_datatype_t*>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+         104, __gnu_cxx::new_allocator<ompi_datatype_t*>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::allocator_traits<std::allocator<ompi_datatype_t*>>::deallocate(std::allocator<ompi_datatype_t*>&, ompi_datatype_t**, unsigned long):
+    469, __gnu_cxx::new_allocator<ompi_datatype_t*>::deallocate(ompi_datatype_t**, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+std::allocator_traits<std::allocator<ompi_datatype_t*>>::max_size(std::allocator<ompi_datatype_t*> const&):
+    505, __gnu_cxx::new_allocator<ompi_datatype_t*>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_base():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_base():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_base() inlined, size=15 (inline)
+           0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+              131, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+                     0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~_Vector_base():
+    332, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_deallocate(ompi_datatype_t**, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+    334, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~_Vector_base():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~_Vector_base() inlined, size=40 (inline) file module_mpi_subdomain.cpp (331)
+         332, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_deallocate(ompi_datatype_t**, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+              351, std::allocator_traits<std::allocator<ompi_datatype_t*>>::deallocate(std::allocator<ompi_datatype_t*>&, ompi_datatype_t**, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+                   469, __gnu_cxx::new_allocator<ompi_datatype_t*>::deallocate(ompi_datatype_t**, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+         334, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline) file module_mpi_subdomain.cpp (0)
+                0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=3 (inline)
+                     0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_allocate(unsigned long):
+    343, std::allocator_traits<std::allocator<ompi_datatype_t*>>::allocate(std::allocator<ompi_datatype_t*>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+         443, __gnu_cxx::new_allocator<ompi_datatype_t*>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+              104, __gnu_cxx::new_allocator<ompi_datatype_t*>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_deallocate(ompi_datatype_t**, unsigned long):
+    351, std::allocator_traits<std::allocator<ompi_datatype_t*>>::deallocate(std::allocator<ompi_datatype_t*>&, ompi_datatype_t**, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+         469, __gnu_cxx::new_allocator<ompi_datatype_t*>::deallocate(ompi_datatype_t**, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::_Vector_impl():
+    131, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+           0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::_Vector_impl():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::~_Vector_impl():
+      0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=3 (inline)
+           0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::~_Vector_impl():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_S_do_relocate(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&, std::integral_constant<bool, true>):
+    453, ompi_datatype_t** std::__relocate_a<ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>>(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&) inlined, size=22 (inline) file module_mpi_subdomain.cpp (963)
+         964, ompi_datatype_t** std::__niter_base<ompi_datatype_t**>(ompi_datatype_t**) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_S_relocate(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&):
+    466, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_S_do_relocate(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&, std::integral_constant<bool, true>) inlined, size=39 (inline) file module_mpi_subdomain.cpp (452)
+         453, ompi_datatype_t** std::__relocate_a<ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>>(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&) inlined, size=22 (inline) file module_mpi_subdomain.cpp (963)
+              964, ompi_datatype_t** std::__niter_base<ompi_datatype_t**>(ompi_datatype_t**) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector():
+      0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_base() inlined, size=29 (inline)
+           0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_base() inlined, size=15 (inline)
+                0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+                   131, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+                          0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector():
+      0, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::vector() inlined, size=55 (inline)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~vector():
+    677, void std::_Destroy<ompi_datatype_t**, ompi_datatype_t*>(ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (205)
+    677, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    680, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~_Vector_base() inlined, size=70 (inline)
+           0, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~_Vector_base() inlined, size=40 (inline) file module_mpi_subdomain.cpp (331)
+              332, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_deallocate(ompi_datatype_t**, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+                   351, std::allocator_traits<std::allocator<ompi_datatype_t*>>::deallocate(std::allocator<ompi_datatype_t*>&, ompi_datatype_t**, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+                        469, __gnu_cxx::new_allocator<ompi_datatype_t*>::deallocate(ompi_datatype_t**, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+              334, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline) file module_mpi_subdomain.cpp (0)
+                     0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=3 (inline)
+                          0, std::allocator<ompi_datatype_t*>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~vector():
+      0, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::~vector() inlined, size=152 (inline) file module_mpi_subdomain.cpp (676)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::begin():
+    809, __gnu_cxx::__normal_iterator<ompi_datatype_t**, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>>::__normal_iterator(ompi_datatype_t** const&) inlined, size=2 (inline) file module_mpi_subdomain.cpp (804)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::end():
+    827, __gnu_cxx::__normal_iterator<ompi_datatype_t**, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>>::__normal_iterator(ompi_datatype_t** const&) inlined, size=2 (inline) file module_mpi_subdomain.cpp (804)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::max_size() const:
+    921, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() const inlined, size=2 (inline) file module_mpi_subdomain.cpp (278)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::resize(unsigned long):
+    936, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    937, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    938, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    939, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_erase_at_end(ompi_datatype_t**) inlined, size=26 (inline) file module_mpi_subdomain.cpp (1790)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::clear():
+   1496, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_erase_at_end(ompi_datatype_t**) inlined, size=26 (inline) file module_mpi_subdomain.cpp (1790)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_default_append(unsigned long):
+    616, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    620, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+    626, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    626, ompi_datatype_t** std::__uninitialized_default_n_a<ompi_datatype_t**, unsigned long, ompi_datatype_t*>(ompi_datatype_t**, unsigned long, std::allocator<ompi_datatype_t*>&) inlined, size=101 (inline) file module_mpi_subdomain.cpp (663)
+    633, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_check_len(unsigned long, char const*) const inlined, size=52 (inline) file module_mpi_subdomain.cpp (1754)
+        1755, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+              921, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() const inlined, size=2 (inline) file module_mpi_subdomain.cpp (278)
+        1755, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+    635, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_allocate(unsigned long) inlined, size=28 (inline) file module_mpi_subdomain.cpp (341)
+         343, std::allocator_traits<std::allocator<ompi_datatype_t*>>::allocate(std::allocator<ompi_datatype_t*>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+              443, __gnu_cxx::new_allocator<ompi_datatype_t*>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+                   104, __gnu_cxx::new_allocator<ompi_datatype_t*>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+    640, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    640, ompi_datatype_t** std::__uninitialized_default_n_a<ompi_datatype_t**, unsigned long, ompi_datatype_t*>(ompi_datatype_t**, unsigned long, std::allocator<ompi_datatype_t*>&) inlined, size=101 (inline) file module_mpi_subdomain.cpp (663)
+    645, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_deallocate(ompi_datatype_t**, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+    648, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+    648, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_S_relocate(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&) inlined, size=70 (inline) file module_mpi_subdomain.cpp (464)
+         466, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_S_do_relocate(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&, std::integral_constant<bool, true>) inlined, size=39 (inline) file module_mpi_subdomain.cpp (452)
+              453, ompi_datatype_t** std::__relocate_a<ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>>(ompi_datatype_t**, ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&) inlined, size=22 (inline) file module_mpi_subdomain.cpp (963)
+                   964, ompi_datatype_t** std::__niter_base<ompi_datatype_t**>(ompi_datatype_t**) inlined, size=2 (inline) file module_mpi_subdomain.cpp (282)
+    675, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_deallocate(ompi_datatype_t**, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_check_len(unsigned long, char const*) const:
+   1755, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+   1755, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+   1758, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+   1758, unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) inlined, size=3 (inline) file module_mpi_subdomain.cpp (223)
+   1759, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::max_size() const inlined, size=5 (inline) file module_mpi_subdomain.cpp (921)
+   1759, std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::size() const inlined, size=4 (inline) file module_mpi_subdomain.cpp (916)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_S_max_size(std::allocator<ompi_datatype_t*> const&):
+   1780, std::allocator_traits<std::allocator<ompi_datatype_t*>>::max_size(std::allocator<ompi_datatype_t*> const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (505)
+         505, __gnu_cxx::new_allocator<ompi_datatype_t*>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+   1781, unsigned long const& std::min<unsigned long>(unsigned long const&, unsigned long const&) inlined, size=3 (inline) file module_mpi_subdomain.cpp (199)
+std::vector<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_erase_at_end(ompi_datatype_t**):
+   1793, void std::_Destroy<ompi_datatype_t**, ompi_datatype_t*>(ompi_datatype_t**, ompi_datatype_t**, std::allocator<ompi_datatype_t*>&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (205)
+   1793, std::_Vector_base<ompi_datatype_t*, std::allocator<ompi_datatype_t*>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+std::allocator<int>::allocator():
+      0, std::allocator<int>::allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (137)
+std::allocator<int>::~allocator():
+      0, std::allocator<int>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::allocator_traits<std::allocator<int>>::allocate(std::allocator<int>&, unsigned long):
+    443, __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+         104, __gnu_cxx::new_allocator<int>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::allocator_traits<std::allocator<int>>::deallocate(std::allocator<int>&, int*, unsigned long):
+    469, __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+std::allocator_traits<std::allocator<int>>::max_size(std::allocator<int> const&):
+    505, __gnu_cxx::new_allocator<int>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<int, std::allocator<int>>::_Vector_base():
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+std::_Vector_base<int, std::allocator<int>>::_Vector_base():
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_base() inlined, size=15 (inline)
+           0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+              131, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+                     0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int> const&):
+    302, std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long) inlined, size=53 (inline) file module_mpi_subdomain.cpp (357)
+         358, std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long) inlined, size=28 (inline) file module_mpi_subdomain.cpp (341)
+              343, std::allocator_traits<std::allocator<int>>::allocate(std::allocator<int>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+                   443, __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+                        104, __gnu_cxx::new_allocator<int>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+    302, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int> const&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (135)
+    302, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::_Vector_base<int, std::allocator<int>>::~_Vector_base():
+    332, std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+         351, std::allocator_traits<std::allocator<int>>::deallocate(std::allocator<int>&, int*, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+              469, __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+    334, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::_Vector_base<int, std::allocator<int>>::~_Vector_base():
+      0, std::_Vector_base<int, std::allocator<int>>::~_Vector_base() inlined, size=40 (inline) file module_mpi_subdomain.cpp (331)
+         332, std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long) inlined, size=16 (inline) file module_mpi_subdomain.cpp (348)
+              351, std::allocator_traits<std::allocator<int>>::deallocate(std::allocator<int>&, int*, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+                   469, __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+         334, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline) file module_mpi_subdomain.cpp (0)
+                0, std::allocator<int>::~allocator() inlined, size=3 (inline)
+                     0, std::allocator<int>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long):
+    343, std::allocator_traits<std::allocator<int>>::allocate(std::allocator<int>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+         443, __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+              104, __gnu_cxx::new_allocator<int>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<int, std::allocator<int>>::_M_deallocate(int*, unsigned long):
+    351, std::allocator_traits<std::allocator<int>>::deallocate(std::allocator<int>&, int*, unsigned long) inlined, size=7 (inline) file module_mpi_subdomain.cpp (469)
+         469, __gnu_cxx::new_allocator<int>::deallocate(int*, unsigned long) inlined, size=3 (inline) file module_mpi_subdomain.cpp (120)
+std::_Vector_base<int, std::allocator<int>>::_M_create_storage(unsigned long):
+    358, std::_Vector_base<int, std::allocator<int>>::_M_allocate(unsigned long) inlined, size=28 (inline) file module_mpi_subdomain.cpp (341)
+         343, std::allocator_traits<std::allocator<int>>::allocate(std::allocator<int>&, unsigned long) inlined, size=15 (inline) file module_mpi_subdomain.cpp (443)
+              443, __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) inlined, size=8 (inline) file module_mpi_subdomain.cpp (103)
+                   104, __gnu_cxx::new_allocator<int>::max_size() const inlined, size=1 (inline) file module_mpi_subdomain.cpp (133)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data():
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_M_swap_data(std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data&):
+    118, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+    119, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_M_copy_data(std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (107)
+    120, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_M_copy_data(std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (107)
+    121, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_M_copy_data(std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (107)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl():
+    131, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl():
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int> const&):
+    135, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int> const&):
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl(std::allocator<int> const&) inlined, size=9 (inline) file module_mpi_subdomain.cpp (135)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl():
+      0, std::allocator<int>::~allocator() inlined, size=3 (inline)
+           0, std::allocator<int>::~allocator() inlined, size=1 (inline) file module_mpi_subdomain.cpp (152)
+std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl():
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::~_Vector_impl() inlined, size=5 (inline)
+std::vector<int, std::allocator<int>>::vector():
+      0, std::_Vector_base<int, std::allocator<int>>::_Vector_base() inlined, size=29 (inline)
+           0, std::_Vector_base<int, std::allocator<int>>::_Vector_base() inlined, size=15 (inline)
+                0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl::_Vector_impl() inlined, size=9 (inline) file module_mpi_subdomain.cpp (131)
+                   131, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=5 (inline)
+                          0, std::_Vector_base<int, std::allocator<int>>::_Vector_impl_data::_Vector_impl_data() inlined, size=3 (inline) file module_mpi_subdomain.cpp (96)
+std::vector<int, std::allocator<int>>::vector():
+      0, std::vector<int, std::allocator<int>>::vector() inlined, size=55 (inline)
+std::vector<int, std::allocator<int>>::vector(unsigned long, std::allocator<int> const&):
+    509, std::_Vector_base<int, std::allocator<int>>::_Vector_base(unsigned long, std::allocator<int> const&) inlined, size=3 (inline)
+    509, std::vector<int, std::allocator<int>>::_M_default_initialize(unsigned long) inlined, size=196 (inline) file module_mpi_subdomain.cpp (1601)
+        1602, int* std::__uninitialized_default_n_a<int*, unsigned long, int>(int*, unsigned long, std::allocator<int>&) inlined, size=101 (inline) file module_mpi_subdomain.cpp (663)
+              663, int* std::__uninitialized_default_n<int*, unsigned long>(int*, unsigned long) inlined, size=55 (inline) file module_mpi_subdomain.cpp (593)
+                   599, int* std::__uninitialized_default_n_1<true>::__uninit_default_n<int*, unsigned long>(int*, unsigned long) inlined, size=31 (inline) file module_mpi_subdomain.cpp (562)
+                        566, int* std::fill_n<int*, unsigned long, int>(int*, unsigned long, int const&) inlined, size=17 (inline) file module_mpi_subdomain.cpp (803)
+        1602, std::_Vector_base<int, std::allocator<int>>::_M_get_Tp_allocator() inlined, size=2 (inline) file module_mpi_subdomain.cpp (274)
+        1602, Generated vector simd code for the loop
+    509, std::vector<int, std::allocator<int>>::_S_check_init_len(unsigned long, std::allocator<int> const&) inlined, size=4 (inline) file module_mpi_subdomain.cpp (1765)
+std::vector<int, std::allocator<int>>::vector(unsigned long, std::allocator<int> const&):
+      0, std::vector<int, std::allocator<int>>::vector(unsigned long, std::allocator<int> const&) inlined, size=386 (inline) file module_mpi_subdomain.cpp (509)
+         509, Generated vector simd code for the loop
+cleaning up after signal(2)...
